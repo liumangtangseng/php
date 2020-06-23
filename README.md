@@ -6,8 +6,7 @@
 1.include、include_once、require、require_once区别
 ---------
 include在引入不存在文件时会产生一个警告且脚本还会继续执行，而require则会导致一个致命性的错误且脚本停止运行。  
-include_once和require_once在加载文件时会进行一次的查询，确认是否存在，然后在进行加载。
-
+include_once和require_once在加载文件时会进行一次的查询，确认是否存在，然后在进行加载。  
 2.Cookie和Session的工作机制
 ----------
 cookie机制采用客户端保持状态  
